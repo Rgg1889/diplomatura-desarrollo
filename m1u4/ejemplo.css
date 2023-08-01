@@ -1,0 +1,39 @@
+h1 {
+    color: red;
+    /* cambio de color a la fuente; RECORDAR QUE PARA COMENTAR ES CTRL +K +C */
+    background-color: blue;
+    text-align: center;
+    
+}
+
+h2{
+color: green;
+font-size: 40px;
+font-family: arial;
+}
+
+p{
+color: blue;
+font-weight: bold;
+font-style: italic;
+line-height: 25px; /* interlineado */
+}
+
+#caja{
+    background-color: orange;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    /* por lo general el padding va a ir acommpañado por el box-sizing para que no crezca la caja; el padding por si solo lo que hace es agregar el espacio que le digamos como margen a los costados del texto, si no ponemos el border-box, va a agrandar la caja */
+    margin-left: 20px;
+    /* por otro lado, el margin va a mover el elemento segun los parametros que le pasemos, en este caso dejamos un margen a la izquierda de 20px */
+    border: 5px solid blue;
+    text-align: center;
+}
+
+.destacados {
+    background-color: yellow;
+    font-size: 25px;
+    
+}
