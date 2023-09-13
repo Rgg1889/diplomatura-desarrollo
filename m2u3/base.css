@@ -50,6 +50,7 @@ body{
 section {
 	margin: 0;
 	padding: 0 0 0 10px;
+	/* box-sizing: border-box; */
 	width: auto;
 	border: solid black 1px;
 	display: flex;
